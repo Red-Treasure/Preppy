@@ -1,0 +1,81 @@
+# This is a comprehensive .gitignore file for a Kotlin Multiplatform project.
+# It covers common files, IDE configurations, and platform-specific build artifacts.
+
+### Generic ###
+*.iml
+.idea/
+.gradle/
+build/
+local.properties
+captures/
+.DS_Store
+/composer.lock
+/node_modules
+/platforms
+/plugins
+/www
+# Ignore all log files
+*.log
+
+### Android ###
+# Generated files
+*/build/
+*.apk
+*.aab
+*.ap_
+*.dex
+# Signed APKs
+*.keystore
+*.jks
+# Android Studio
+.idea/caches/
+.idea/libraries/
+.idea.modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+# Google Services file
+google-services.json
+
+### iOS ###
+# Xcode
+*.hmap
+*.ipa
+*.app
+*.xcodeproj
+*.xcworkspace
+/iosApp/DerivedData/
+# CocoaPods
+/iosApp/Pods/
+
+### Desktop ###
+# JVM
+*.jar
+*.class
+# Packaging
+/composeApp/build/compose/jars/
+/composeApp/build/compose/tmp/
+/composeApp/build/compose/binaries/
+
+### Kotlin ###
+# Kotlin Multiplatform
+/composeApp/build/
+/composeApp/out/
+/.kotlin/
+# KSP generated files
+/composeApp/build/generated/
+# Other Kotlin files
+*.kt.js
+*.kjsm
+*.kt.meta.js
+
+### Operating System Files ###
+# macOS
+.DS_Store
+Thumbs.db
+# Windows
+Desktop.ini
+# Linux
+.*.swp
+*~
+
