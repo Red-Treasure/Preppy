@@ -15,7 +15,7 @@ Preppy is a modern, multiplatform application designed to streamline home kitche
 
 ## 🚀 Project Status & Roadmap
 
-This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/Red-Treasure/projects/YOUR_PROJECT_ID) (replace this link).
+This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/Red-Treasure/projects/1).
 
 | Epic                                 | Status      | Key Issues                                                                                                                                          |
 | ------------------------------------ | ----------- |-----------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,11 +70,3 @@ This project is built with a modern, multiplatform technology stack:
     -   Select the `composeApp` run configuration from the dropdown at the top of Android Studio.
     -   Choose your connected Android device or an emulator.
     -   Click the "Run" button (▶️).
-
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome. (More detailed contribution guidelines will be added soon).
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
