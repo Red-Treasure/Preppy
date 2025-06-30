@@ -15,18 +15,18 @@ Preppy is a modern, multiplatform application designed to streamline home kitche
 
 ## 🚀 Project Status & Roadmap
 
-This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/cearo/projects/YOUR_PROJECT_ID) (replace this link).
+This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/Red-Treasure/projects/YOUR_PROJECT_ID) (replace this link).
 
-| Epic                                 | Status      | Key Issues                                                                                                                                                                 |
-| ------------------------------------ | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Foundational Setup** | **Next Up** | [#1](https://github.com/cearo/preppy/issues/1) Implement Multiplatform Logging                                                                                    |
-| **UI/UX Enhancements** | Planned     | [#2](https://github.com/cearo/preppy/issues/2) Implement Theme Picker (Light/Dark/System)                                                                          |
-| **Core Inventory Functionality** | Planned     | [#3](https://github.com/cearo/preppy/issues/3) Implement Delete, [#4](https://github.com/cearo/preppy/issues/4) Implement Update                             |
-| **Data Model V2 (Type Safety)** | Planned     | [#5](https://github.com/cearo/preppy/issues/5) Type-Safe Units, [#6](https://github.com/cearo/preppy/issues/6) Add Thresholds                                  |
-| **Data Model V3 (Categorization)** | Planned     | [#7](https://github.com/cearo/preppy/issues/7) Item Categories, [#8](https://github.com/cearo/preppy/issues/8) Nutritional Details                              |
-| **Foundational Business Logic** | Planned     | [#9](https://github.com/cearo/preppy/issues/9) Barcode Service, [#10](https://github.com/cearo/preppy/issues/10) Inventory Query API                         |
-| **Recipe Module** | Planned     | TBD                                                                                                                                                                        |
-| **Meal Planner & Grocery List** | Planned     | TBD                                                                                                                                                                        |
+| Epic                                 | Status      | Key Issues                                                                                                                                          |
+| ------------------------------------ | ----------- |-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Foundational Setup** | **Next Up** | [#55](https://github.com/Red-Treasure/preppy/issues/55) Implement Multiplatform Logging                                                             |
+| **UI/UX Enhancements** | Planned     | [#2](https://github.com/Red-Treasure/preppy/issues/56) Implement Theme Picker (Light/Dark/System)                                                   |
+| **Core Inventory Functionality** | Planned     | [#3](https://github.com/Red-Treasure/preppy/issues/12) Implement Delete, [#4](https://github.com/Red-Treasure/preppy/issues/13) Implement Update    |
+| **Data Model V2 (Type Safety)** | Planned     | [#5](https://github.com/Red-Treasure/preppy/issues/22) Type-Safe Units, [#6](https://github.com/Red-Treasure/preppy/issues/27) Add Thresholds       |
+| **Data Model V3 (Categorization)** | Planned     | [#7](https://github.com/Red-Treasure/preppy/issues/36) Item Categories, [#8](https://github.com/Red-Treasure/preppy/issues/41) Nutritional Details  |
+| **Foundational Business Logic** | Planned     | [#9](https://github.com/Red-Treasure/preppy/issues/47) Barcode Service, [#10](https://github.com/Red-Treasure/preppy/issues/52) Inventory Query API |
+| **Recipe Module** | Planned     | TBD                                                                                                                                                 |
+| **Meal Planner & Grocery List** | Planned     | TBD                                                                                                                                                 |
 
 ## 🛠️ Tech Stack
 
@@ -51,7 +51,7 @@ This project is built with a modern, multiplatform technology stack:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/cearo/preppy.git](https://github.com/cearo/preppy.git)
+    git clone [https://github.com/Red-Treasure/preppy.git](https://github.com/Red-Treasure/preppy.git)
     cd preppy
     ```
 
