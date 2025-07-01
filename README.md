@@ -17,16 +17,16 @@ Preppy is a modern, multiplatform application designed to streamline home kitche
 
 This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/Red-Treasure/projects/1).
 
-| Epic                                 | Status      | Key Issues                                                                                                                                          |
-| ------------------------------------ | ----------- |-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Foundational Setup** | **Next Up** | [#55](https://github.com/Red-Treasure/preppy/issues/55) Implement Multiplatform Logging                                                             |
-| **UI/UX Enhancements** | Planned     | [#2](https://github.com/Red-Treasure/preppy/issues/56) Implement Theme Picker (Light/Dark/System)                                                   |
-| **Core Inventory Functionality** | Planned     | [#3](https://github.com/Red-Treasure/preppy/issues/12) Implement Delete, [#4](https://github.com/Red-Treasure/preppy/issues/13) Implement Update    |
-| **Data Model V2 (Type Safety)** | Planned     | [#5](https://github.com/Red-Treasure/preppy/issues/22) Type-Safe Units, [#6](https://github.com/Red-Treasure/preppy/issues/27) Add Thresholds       |
+| Epic                               | Status      | Key Issues                                                                                                                                          |
+|------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **~~Foundational Setup~~**         | !!DONE!!    | ~~[#55](https://github.com/Red-Treasure/preppy/issues/55) Implement Multiplatform Logging~~                                                         |
+| **UI/UX Enhancements**             | **NEXT UP** | [#2](https://github.com/Red-Treasure/preppy/issues/56) Implement Theme Picker (Light/Dark/System)                                                   |
+| **Core Inventory Functionality**   | Planned     | [#3](https://github.com/Red-Treasure/preppy/issues/12) Implement Delete, [#4](https://github.com/Red-Treasure/preppy/issues/13) Implement Update    |
+| **Data Model V2 (Type Safety)**    | Planned     | [#5](https://github.com/Red-Treasure/preppy/issues/22) Type-Safe Units, [#6](https://github.com/Red-Treasure/preppy/issues/27) Add Thresholds       |
 | **Data Model V3 (Categorization)** | Planned     | [#7](https://github.com/Red-Treasure/preppy/issues/36) Item Categories, [#8](https://github.com/Red-Treasure/preppy/issues/41) Nutritional Details  |
-| **Foundational Business Logic** | Planned     | [#9](https://github.com/Red-Treasure/preppy/issues/47) Barcode Service, [#10](https://github.com/Red-Treasure/preppy/issues/52) Inventory Query API |
-| **Recipe Module** | Planned     | TBD                                                                                                                                                 |
-| **Meal Planner & Grocery List** | Planned     | TBD                                                                                                                                                 |
+| **Foundational Business Logic**    | Planned     | [#9](https://github.com/Red-Treasure/preppy/issues/47) Barcode Service, [#10](https://github.com/Red-Treasure/preppy/issues/52) Inventory Query API |
+| **Recipe Module**                  | Planned     | TBD                                                                                                                                                 |
+| **Meal Planner & Grocery List**    | Planned     | TBD                                                                                                                                                 |
 
 ## 🛠️ Tech Stack
 
