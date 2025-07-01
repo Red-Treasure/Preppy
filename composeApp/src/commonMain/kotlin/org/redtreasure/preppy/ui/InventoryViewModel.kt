@@ -2,6 +2,7 @@ package org.redtreasure.preppy.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import co.touchlab.kermit.Logger
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
@@ -13,6 +14,9 @@ import org.redtreasure.preppy.data.InventoryRepository
 // This ViewModel now correctly lives in commonMain and uses the
 // multiplatform ViewModel class from the JetBrains library.
 class InventoryViewModel(private val repository: InventoryRepository) : ViewModel() {
+
+    private val log = Logger.withTag(TAG)
+
     val inventoryUiState: StateFlow<InventoryUiState> =
         repository.getAllItems().map { InventoryUiState(it) }
             .stateIn(
@@ -23,9 +27,16 @@ class InventoryViewModel(private val repository: InventoryRepository) : ViewMode
 
     fun addItem(name: String, quantity: Double, unit: String) {
         viewModelScope.launch {
+            log.i { "Adding item: $name, $quantity, $unit" }
             val newItem = InventoryItem(name = name, quantity = quantity, unit = unit)
+            log.d { "New item: $newItem" }
             repository.insert(newItem)
+            log.i { "Item added" }
         }
+    }
+
+    companion object {
+        private val TAG = InventoryViewModel::class.simpleName ?: "InventoryViewModel"
     }
 }
 
