@@ -5,6 +5,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
+import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -20,11 +21,24 @@ import org.redtreasure.preppy.data.InventoryItem
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun InventoryScreen(viewModel: InventoryViewModel) {
+fun InventoryScreen(
+    viewModel: InventoryViewModel,
+    onNavigateToSettings: () -> Unit
+) {
     val uiState by viewModel.inventoryUiState.collectAsState()
     var showAddItemDialog by remember { mutableStateOf(false) }
 
     Scaffold(
+        topBar = {
+            TopAppBar(
+                title = { Text("Inventory") },
+                actions = {
+                    IconButton(onClick = onNavigateToSettings) {
+                        Icon(Icons.Default.Settings, contentDescription = "Settings")
+                    }
+                }
+            )
+        },
         floatingActionButton = {
             FloatingActionButton(onClick = { showAddItemDialog = true }) {
                 Icon(Icons.Default.Add, contentDescription = "Add Item")
@@ -48,16 +62,6 @@ fun InventoryScreen(viewModel: InventoryViewModel) {
                 }
             }
         }
-    }
-
-    if (showAddItemDialog) {
-        AddItemDialog(
-            onDismiss = { showAddItemDialog = false },
-            onConfirm = { name, quantity, unit ->
-                viewModel.addItem(name, quantity, unit)
-                showAddItemDialog = false
-            }
-        )
     }
 }
 
