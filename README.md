@@ -17,16 +17,24 @@ Preppy is a modern, multiplatform application designed to streamline home kitche
 
 This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/Red-Treasure/projects/1).
 
-| Epic                               | Status      | Key Issues                                                                                                                                          |
-|------------------------------------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **~~Foundational Setup~~**         | !!DONE!!    | ~~[#55](https://github.com/Red-Treasure/preppy/issues/55) Implement Multiplatform Logging~~                                                         |
-| **UI/UX Enhancements**             | **NEXT UP** | [#2](https://github.com/Red-Treasure/preppy/issues/56) Implement Theme Picker (Light/Dark/System)                                                   |
-| **Core Inventory Functionality**   | Planned     | [#3](https://github.com/Red-Treasure/preppy/issues/12) Implement Delete, [#4](https://github.com/Red-Treasure/preppy/issues/13) Implement Update    |
-| **Data Model V2 (Type Safety)**    | Planned     | [#5](https://github.com/Red-Treasure/preppy/issues/22) Type-Safe Units, [#6](https://github.com/Red-Treasure/preppy/issues/27) Add Thresholds       |
-| **Data Model V3 (Categorization)** | Planned     | [#7](https://github.com/Red-Treasure/preppy/issues/36) Item Categories, [#8](https://github.com/Red-Treasure/preppy/issues/41) Nutritional Details  |
-| **Foundational Business Logic**    | Planned     | [#9](https://github.com/Red-Treasure/preppy/issues/47) Barcode Service, [#10](https://github.com/Red-Treasure/preppy/issues/52) Inventory Query API |
-| **Recipe Module**                  | Planned     | TBD                                                                                                                                                 |
-| **Meal Planner & Grocery List**    | Planned     | TBD                                                                                                                                                 |
+## 🚀 Project Status & Roadmap
+
+This project is currently in the initial development phase. The following table tracks the high-level roadmap. You can find detailed tasks in our [GitHub Project Board](https://github.com/users/Red-Treasure/projects/1).
+
+| Epic                               | Status   | Key Issues                                                                                                                                          |
+|------------------------------------|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **~~Foundational Setup~~**         | !!DONE!! | ~~[#55](https://github.com/Red-Treasure/preppy/issues/55) Implement Multiplatform Logging~~                                                         |
+| **~~UI/UX Enhancements~~**         | !!DONE!! | ~~[#56](https://github.com/Red-Treasure/preppy/issues/56) Implement Theme Picker (Light/Dark/System)~~                                              |
+| **Implement Navigation Framework** | NEXT UP  | [#59](https://github.com/Red-Treasure/preppy/issues/59) Implement Navigation Framework                                                              |
+| **BUG: Resolve Bug With Multiplatform Dependency Injection** | Planned  | [#70](https://github.com/Red-Treasure/preppy/issues/70) ViewModelFactory incorrectly provides InventoryViewModel due to type erasure with SettingsViewModel interface |
+| **Core Inventory Functionality**   | Planned  | [#3](https://github.com/Red-Treasure/preppy/issues/12) Implement Delete, [#4](https://github.com/Red-Treasure/preppy/issues/13) Implement Update    |
+| **Implement Testing Framework and Strategy** | Planned | [#63](https://github.com/Red-Treasure/preppy/issues/63) Implement Code Testing Framework and Strategy                                       |
+| **Data Model V2 (Type Safety)**    | Planned  | [#5](https://github.com/Red-Treasure/preppy/issues/22) Type-Safe Units, [#6](https://github.com/Red-Treasure/preppy/issues/27) Add Thresholds       |
+| **Data Model V3 (Categorization)** | Planned  | [#7](https://github.com/Red-Treasure/preppy/issues/36) Item Categories, [#8](https://github.com/Red-Treasure/preppy/issues/41) Nutritional Details  |
+| **Foundational Business Logic**    | Planned  | [#9](https://github.com/Red-Treasure/preppy/issues/47) Barcode Service, [#10](https://github.com/Red-Treasure/preppy/issues/52) Inventory Query API |
+| **Recipe Module**                  | Planned  | TBD                                                                                                                                                 |
+| **Meal Planner & Grocery List**    | Planned  | TBD                                                                                                                                                 |
+
 
 ## 🛠️ Tech Stack
 
