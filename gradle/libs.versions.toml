@@ -12,6 +12,11 @@ room = "2.6.1"
 androidx-lifecycle-viewmodel-compose = "2.8.0"
 kotlinx-datetime = "0.6.0"
 
+# Logging
+kermit = "2.0.6"
+
+#Settings
+settings = "1.3.0"
 
 # Android SDK Config
 android-minSdk = "24"
@@ -19,6 +24,13 @@ android-compileSdk = "34"
 android-targetSdk = "34"
 
 [libraries]
+# Logging
+kermit-logger = { module = "co.touchlab:kermit", version.ref = "kermit" }
+
+# Settings
+settings-multiplatform = { module = "com.russhwolf:multiplatform-settings", version.ref = "settings" }
+settings-multiplatform-coroutines = { module = "com.russhwolf:multiplatform-settings-coroutines", version.ref = "settings" }
+
 # AndroidX Activity for Compose
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity-compose" }
 

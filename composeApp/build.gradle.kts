@@ -44,10 +44,8 @@ kotlin {
         androidMain.dependencies {
             implementation(libs.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
-
-            implementation(libs.lifecycle.viewmodel.compose)
+            //implementation(libs.lifecycle.viewmodel.compose)
             implementation(libs.lifecycle.runtime.ktx)
-
             implementation(libs.room.runtime)
             implementation(libs.room.ktx)
         }
@@ -62,6 +60,9 @@ kotlin {
             implementation(compose.components.uiToolingPreview)
             implementation(libs.androidx.lifecycle.viewmodel.compose)
             implementation(libs.kotlinx.datetime)
+            implementation(libs.kermit.logger)
+            implementation(libs.settings.multiplatform)
+            implementation(libs.settings.multiplatform.coroutines)
         }
 
         desktopMain.dependencies {
